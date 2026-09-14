@@ -1,0 +1,21 @@
+# Core tabular and machine-learning dependencies
+numpy==2.1.3
+pandas==2.2.3
+scikit-learn==1.5.2
+xgboost==2.1.3
+
+# Raster and geospatial analysis
+geopandas==1.0.1
+rasterio==1.4.3
+shapely==2.0.6
+pyproj==3.7.0
+
+# Analysis and reproducibility
+matplotlib==3.9.2
+seaborn==0.13.2
+jupyterlab==4.3.3
+ipykernel==6.29.5
+
+# Quality checks
+pytest==8.3.4
+ruff==0.8.4
