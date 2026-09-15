@@ -60,10 +60,15 @@ python -c "import geopandas, rasterio, sklearn, xgboost; print('Environment OK')
 
 1. Put the lab-provided files under `data/raw/`.
 2. Preprocess and align rasters into `data/interim/`.
-3. Build feature tables and labels under `data/processed/`.
-4. Train and validate Random Forest and XGBoost models.
-5. Save figures and maps locally under `outputs/`.
-6. Commit only code, documentation, configuration, and reproducible metadata.
+3. Build GeoParquet feature tables and labels under `data/processed/`.
+4. Train and validate Random Forest and XGBoost models from the same spatial
+  splits.
+5. Build indexed raster patches for CNN experiments after raster validation.
+6. Save figures and maps locally under `outputs/`.
+7. Commit only code, documentation, configuration, and reproducible metadata.
+
+See [`docs/data-contract.md`](docs/data-contract.md) for the format and
+alignment requirements.
 
 ## GitHub repository
 

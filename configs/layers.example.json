@@ -1,0 +1,14 @@
+{
+  "reference": "raw/<reference-raster>.tif",
+  "predictors": [
+    {
+      "name": "<predictor-name>",
+      "path": "raw/<predictor-raster>.tif",
+      "resampling": "bilinear"
+    }
+  ],
+  "label": {
+    "path": "raw/<label-raster>.tif",
+    "resampling": "nearest"
+  }
+}
